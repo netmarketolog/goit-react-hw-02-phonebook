@@ -2,7 +2,7 @@ import { ContactForm } from 'components/ContactForm/ContactForm';
 import { ContactList } from 'components/ContactList/ContactList';
 import Filter from 'components/Filter/Filter';
 import { Component } from 'react';
-import { Container, Title } from './PhoneBook.styled';
+import { Container } from './PhoneBook.styled';
 export class PhoneBook extends Component {
   state = {
     contacts: [
@@ -54,9 +54,3 @@ export class PhoneBook extends Component {
     );
   }
 }
-{
-  /* <Filter />; */
-}
-// <p>Find contacts by name</p>
-// <input type="text" />
-// <ul>List Contact</ul>
